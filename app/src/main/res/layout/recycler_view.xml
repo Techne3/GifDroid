@@ -5,11 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+        android:id="@+id/jsonRv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="4dp"
-        tools:listitem="@layout/item_layout"
-        />
+        tools:layout_editor_absoluteX="-31dp"
+        tools:layout_editor_absoluteY="-360dp"
+        tools:listitem="@layout/items_layout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
